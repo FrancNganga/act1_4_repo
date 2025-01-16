@@ -15,6 +15,7 @@ def triangle_area (b,h):
     return output
 
 def test_triangle_area():
+    assert triangle_area(10,4) == 20
     assert triangle_area(6,4) == 12
     assert triangle_area(5,6) == 15
 test_triangle_area()
